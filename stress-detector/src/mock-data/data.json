@@ -1,0 +1,65 @@
+[
+    {
+        "results": {
+          "audio_emotion": {
+            "anger": 0.02,
+            "disgust": 0.01,
+            "fear": 0.03,
+            "happiness": 0.85,
+            "sadness": 0.02,
+            "surprise": 0.06,
+            "neutral": 0.01
+          },
+          "text_sentiment": {
+            "label": "POSITIVE",
+            "score": 0.989
+          },
+          "transcription": "I'm absolutely thrilled with this amazing result!"
+        },
+        "source": "s3://your-bucket/alert-sample-101.wav",
+        "status": "success"
+    },
+
+    {
+        "results": {
+          "audio_emotion": {
+            "anger": 0.09,
+            "disgust": 0.08,
+            "fear": 0.03,
+            "happiness": 0.1,
+            "sadness": 0.05,
+            "surprise": 0.03,
+            "neutral": 0.01
+          },
+          "text_sentiment": {
+            "label": "NEGATIVE",
+            "score": 0.589
+          },
+          "transcription": "I'm absolutely thrilled with this amazing result!"
+        },
+        "source": "s3://your-bucket/alert-sample-102.wav",
+        "status": "success"
+    },
+
+
+    {
+        "results": {
+          "audio_emotion": {
+            "anger": 0.04,
+            "disgust": 0.03,
+            "fear": 0.03,
+            "happiness": 0.5,
+            "sadness": 0.03,
+            "surprise": 0.03,
+            "neutral": 0.05
+          },
+          "text_sentiment": {
+            "label": "POSITIVE",
+            "score": 0.589
+          },
+          "transcription": "I'm absolutely thrilled with this amazing result!"
+        },
+        "source": "s3://your-bucket/alert-sample-102.wav",
+        "status": "success"
+    }
+]
