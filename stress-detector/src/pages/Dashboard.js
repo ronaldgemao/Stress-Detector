@@ -3,7 +3,6 @@ import {
   BarChart, Bar, PieChart, Pie, Cell, LineChart, Line, 
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
 } from 'recharts';
-import { Menu, X, Bell, Search, ChevronDown, Filter, Clock, Calendar, Download, Mic } from 'lucide-react';
 
 // Sample data from the provided audio analysis
 const audioData = [

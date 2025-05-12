@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Sector } from 'recharts';
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Sector } from 'recharts';
 import { ChevronDown, ChevronRight } from 'lucide-react';
 
 
@@ -89,7 +89,7 @@ export default function CollapsibleEmotionTable() {
   };
 
   const renderActiveShape = (props) => {
-    const { cx, cy, innerRadius, outerRadius, startAngle, endAngle, fill, payload, percent, value } = props;
+    const { cx, cy, innerRadius, outerRadius, startAngle, endAngle, fill, payload, value } = props;
   
     return (
       <g>

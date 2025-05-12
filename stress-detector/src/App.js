@@ -26,7 +26,7 @@ const { pathname } = useLocation();
               </div>
               <div class="flex flex-col flex-grow overflow-y-auto">
                   <nav class="flex-grow px-4 pb-4 pt-8 space-y-1">
-                      <Link to="/" className={`flex items-center px-4 py-3 text-white ${pathname.match(/dashboard/) ? 'bg-gray-700' : ''} rounded-md hover:bg-gray-700 hover:text-white`}>
+                      <Link to="/" className={`flex items-center px-4 py-3 text-white ${!pathname.match(/sentiments/) ? 'bg-gray-700' : ''} rounded-md hover:bg-gray-700 hover:text-white`}>
                         <i class="fas fa-home mr-3"></i>
                         <span>Dashboard</span>
                       </Link>
@@ -37,7 +37,7 @@ const { pathname } = useLocation();
                   </nav>
               </div>
               <div class="p-4 border-t border-gray-700">
-                  <a href="#" class="flex items-center text-gray-300 hover:text-white">
+                  <a href="/" class="flex items-center text-gray-300 hover:text-white">
                       <i class="fas fa-user mr-2"></i>
                       <span>John Doe</span>
                   </a>
@@ -92,7 +92,7 @@ const { pathname } = useLocation();
               </nav>
           </div>
           <div class="p-4 border-t border-gray-700">
-              <a href="#" class="flex items-center text-gray-300 hover:text-white">
+              <a href="/" class="flex items-center text-gray-300 hover:text-white">
                 <i class="fas fa-user mr-2"></i>
                   <span>John Doe</span>
               </a>
