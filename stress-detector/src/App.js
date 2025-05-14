@@ -22,7 +22,7 @@ const { pathname } = useLocation();
       <div class="flex h-screen overflow-hidden">
           <div class="hidden md:flex flex-col w-64 bg-gray-800">
               <div class="flex items-center justify-center h-16 border-b border-gray-700">
-                  <span class="text-white font-bold text-lg">Admin Panel</span>
+                  <span class="text-white font-bold text-2xl">Nemesis</span>
               </div>
               <div class="flex flex-col flex-grow overflow-y-auto">
                   <nav class="flex-grow px-4 pb-4 pt-8 space-y-1">
@@ -39,7 +39,7 @@ const { pathname } = useLocation();
               <div class="p-4 border-t border-gray-700">
                   <a href="/" class="flex items-center text-gray-300 hover:text-white">
                       <i class="fas fa-user mr-2"></i>
-                      <span>John Doe</span>
+                      <span>Raymond Torino</span>
                   </a>
               </div>
           </div>
@@ -48,7 +48,7 @@ const { pathname } = useLocation();
               <header class="bg-white shadow">
                   <div class="flex items-center justify-between px-6 py-3">
                       <div class="flex items-center">
-                          <button class="md:hidden text-gray-500 focus:outline-none" onclick={toggleSidebar}>
+                          <button class="md:hidden text-gray-500 focus:outline-none" onClick={toggleSidebar}>
                               <i class="fas fa-bars"></i>
                           </button>
                           <h1 class="text-xl font-semibold ml-3 capitalize">{ pathname.replace('/', '') || 'Dashboard'}</h1>
@@ -77,7 +77,7 @@ const { pathname } = useLocation();
 
       <div id="mobileSidebar" class="fixed inset-y-0 left-0 z-30 w-64 transform -translate-x-full transition-transform duration-300 ease-in-out bg-gray-800 md:hidden">
           <div class="flex items-center justify-center h-16 border-b border-gray-700">
-              <span class="text-white font-bold text-lg">Admin Panel</span>
+              <span class="text-white font-bold text-2xl">Nemesis</span>
           </div>
           <div class="flex flex-col flex-grow overflow-y-auto">
               <nav class="flex-grow px-4 pb-4 pt-8 space-y-1">
@@ -94,7 +94,7 @@ const { pathname } = useLocation();
           <div class="p-4 border-t border-gray-700">
               <a href="/" class="flex items-center text-gray-300 hover:text-white">
                 <i class="fas fa-user mr-2"></i>
-                  <span>John Doe</span>
+                  <span>Raymond Torino</span>
               </a>
           </div>
       </div>
