@@ -22,7 +22,7 @@ const { pathname } = useLocation();
       <div class="flex h-screen overflow-hidden">
           <div class="hidden md:flex flex-col w-64 bg-gray-800">
               <div class="flex items-center justify-center h-16 border-b border-gray-700">
-                  <span class="text-white font-bold text-2xl">Nemesis</span>
+                  <span class="text-white font-bold text-2xl">EmotiVoice.AI</span>
               </div>
               <div class="flex flex-col flex-grow overflow-y-auto">
                   <nav class="flex-grow px-4 pb-4 pt-8 space-y-1">
@@ -77,7 +77,7 @@ const { pathname } = useLocation();
 
       <div id="mobileSidebar" class="fixed inset-y-0 left-0 z-30 w-64 transform -translate-x-full transition-transform duration-300 ease-in-out bg-gray-800 md:hidden">
           <div class="flex items-center justify-center h-16 border-b border-gray-700">
-              <span class="text-white font-bold text-2xl">Nemesis</span>
+              <span class="text-white font-bold text-2xl">EmotiVoice.AI</span>
           </div>
           <div class="flex flex-col flex-grow overflow-y-auto">
               <nav class="flex-grow px-4 pb-4 pt-8 space-y-1">
