@@ -127,8 +127,8 @@ export default function AudioDashboard() {
 						},
 						transcription: b.Transcription,
 					},
-					date_created: a.CreatedAt,
-					date_updated: a.UpdatedAt
+					date_created: b.CreatedAt,
+					date_updated: b.UpdatedAt
 				};
 
 					a.push(obj);
