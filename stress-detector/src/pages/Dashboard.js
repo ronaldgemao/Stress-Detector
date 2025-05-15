@@ -143,7 +143,6 @@ export default function AudioDashboard() {
 				setLoading(false);
 			})
 			.catch(error => {
-				alert('alert')
 				console.log(error);
 				setData(mockData)
 				setSelectedAudio(mockData[0]);
